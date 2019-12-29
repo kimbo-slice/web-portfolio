@@ -7,7 +7,7 @@ export default class IntroImage extends Component {
         <section id="colorlib-hero" className="js-fullheight" data-section="home" style={{height: '916px'}}>
             <div className="flexslider" style={{height: '916px'}}>
                 <ul className="slides">
-                    <li className data-thumb-alt style={{backgroundImage: 'url("images/favor-headshot.jpg")', width: '100%', float: 'left', marginRight: '-100%', backgroundSize: 'contain', position: 'relative', display: 'block'}}>
+                    <li className data-thumb-alt style={{backgroundImage: 'url("images/favor-headshot.jpg")', backgroundSize: 'contain'}}>
                         <div className="overlay" />
                         <div className="container-fluid">
                             <div className="row">
@@ -52,7 +52,7 @@ export default class IntroImage extends Component {
                             </div>
                         </div>
                     </li>
-                    <li data-thumb-alt style={{backgroundImage: 'url("images/logos.jpg")', backgroundSize: 'contain', backgroundPosition: 'center'}}>
+                    <li data-thumb-alt style={{backgroundImage: 'url("images/logos.jpg")', backgroundPosition: 'bottom right', backgroundSize: '70%'}}>
                         <div className="overlay" />
                         <div className="container-fluid">
                             <div className="row">
